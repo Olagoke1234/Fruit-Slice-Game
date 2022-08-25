@@ -1,0 +1,148 @@
+html {
+  height: 100%;
+  background: radial-gradient(circle, #fff, #ccc);
+  background: -webkit-radial-gradient(circle, #fff, #ccc);
+  background: -o-radial-gradient(circle, #fff, #ccc);
+  background: -moz-radial-gradient(circle, #fff, #ccc);
+}
+
+#container {
+  height: 700px;
+  width: 750px;
+  background-color: #99ceec;
+  margin: auto auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 0 0 #0b8dd7;
+  -webkit-box-shadow: 0px 4px 0 0 #0b8dd7;
+  -moz-box-shadow: 0px 4px 0 0 #0b8dd7;
+  position: relative;
+}
+
+#score {
+  background-color: #f3f78f;
+  color: #90a277;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  box-shadow: 0px 4px 0 0 #90a277;
+  -webkit-box-shadow: 0px 4px 0 0 #90a277;
+  -moz-box-shadow: 0px 4px 0 0 #90a277;
+}
+
+#correct {
+  position: absolute;
+  left: 200px;
+  padding: 10px;
+  background-color: rgb(60, 172, 60);
+  color: white;
+  display: none;
+}
+
+#wrong {
+  position: absolute;
+  left: 200px;
+  padding: 10px;
+  background-color: rgb(207, 53, 53);
+  color: white;
+  display: none;
+}
+
+#question {
+  height: 520px;
+  width: 650px;
+  background-color: white;
+  margin: 50px auto 6px auto;
+  box-shadow: 0 3px #4d62a2;
+  -moz-box-shadow: 0 3px #4d62a2;
+  -webkit-box-shadow: 0 3px #4d62a2;
+  font-family: cursive, sans-serif;
+  font-size: 80px;
+  text-align: center;
+  color: black;
+}
+
+#instruction {
+  height: 40px;
+  width: 350px;
+  background-color: #b78adc;
+  margin: 0px auto 0px auto;
+  -moz-box-shadow: 0 3px #895cae;
+  -webkit-box-shadow: 0 3px #895cae;
+  box-shadow: 0 3px #895cae;
+  text-align: center;
+  color: black;
+  font-family: serif;
+  line-height: 2.5em;
+}
+
+#startreset {
+  background-color: #cee7f7;
+  padding: 8px 3px;
+  text-align: center;
+  margin: 7px auto;
+  width: 80px;
+  box-shadow: 0 3px #7da3bd;
+  -webkit-box-shadow: 0 3px #7da3bd;
+  -moz-box-shadow: 0 3px #7da3bd;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  transition: all 2s;
+  -ms-transition: all 2s;
+  -moz-transition: all 2s;
+  -o-transition: all 2s;
+  -webkit-transition: all 2s;
+  font-size: 13px;
+}
+
+#startreset:hover {
+  background-color: #9e90fb;
+  color: white;
+  box-shadow: 0 3px #6c5ed7;
+  -webkit-box-shadow: 0 3px #6c5ed7;
+  -moz-box-shadow: 0 3px #6c5ed7;
+}
+
+#startreset:active {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  top: 4px;
+}
+
+#trialsleft {
+  background-color: #f3f78f;
+  padding: 20px;
+  width: 80px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 4px #90a277;
+  -webkit-box-shadow: 0 4px #90a277;
+  -moz-box-shadow: 0 4px #90a277;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-size: 13px;
+  display: none;
+}
+
+#gameover {
+  height: 240px;
+  width: 490px;
+  background: linear-gradient(#fbcd67, #ff7a6c);
+  background: -webkit-linear-gradient(#fbcd67, #ff7a6c);
+  background: -o-linear-gradient(#fbcd67, #ff7a6c);
+  background: -moz-linear-gradient(#fbcd67, #ff7a6c);
+  font-size: 37px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 2em;
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  left: 140px;
+  z-index: 2;
+  display: none;
+}
